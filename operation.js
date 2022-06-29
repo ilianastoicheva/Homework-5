@@ -8,6 +8,8 @@
 			
 			
 			user_age  = ((new Date()).getFullYear())- +questionVariables.userBirthYear;
+
+                        // първото  число от номера на картата
 			
 			function number_1(){
 				     
@@ -44,11 +46,9 @@
 				}
 				
 				if(+questionVariables.userBirthYear==1965){
-					number = 0;	
-                    //console.log(number);					
+					number = 0;						
 				}
 				
-				//console.log(number);
 				if((number/10)>=1){
 					number               = Math.floor(number/10);					
 				}
@@ -57,6 +57,8 @@
 			
 				
 			}
+
+                         // второто  число от номера на картата
 			
 			function number_2(){
 				if(questionVariables.userSex=='F'){
@@ -73,9 +75,8 @@
 				return number;
 				
 			}
-			
-			// третото число от номера на картата
-			
+
+			// третото  число от номера на картата
 			
 			function number_3(){
 
@@ -104,9 +105,7 @@
 				}
 				
 				let fatherLastNum = (+questionVariables.fatherBirthYear % 10);				
-				//console.log(questionVariables.fatherBirthYear);
-                //console.log(fatherLastNum);	
-
+	
                 // сравняване на последните цифри от рожденните години
 				
 				if(matherLastNum!=fatherLastNum){
@@ -199,7 +198,6 @@
 				}
 				
 				number = +questionVariables.favoriteProduct + +questionVariables.purchaseFrequency;
-				//console.log(number);
 				return number;
 			}
 			
