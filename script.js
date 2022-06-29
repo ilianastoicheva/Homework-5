@@ -6,7 +6,7 @@
 			if(+questionVariables.userBirthYear==1965){
 				numbers.num_2 =0;
 			} else 	{questionVariables.userSex      = prompt(questions.USER_SEX);
-			//console.log(questionVariables.userSex);
+
 			numbers.num_2  = number_2();			
 			}
 			console.log("Второ число");
