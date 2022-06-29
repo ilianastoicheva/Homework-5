@@ -64,7 +64,6 @@
 			alert(cardNumber);
 			
 			
-			//alert( fruits[0] ); // Яблоко
 			
 			
 			
