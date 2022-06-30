@@ -131,7 +131,7 @@
 			    questionVariables.userHeight  = prompt(questions.USER_HEIGHT);								
 		        while(!questionVariables.userHeight){
 					
-					alert("Не сте въвели вашите килограми");
+					alert("Не сте въвели височината си");
 					questionVariables.userHeight  = prompt(questions.USER_HEIGHT);
 				}
 				
@@ -141,7 +141,7 @@
 		        questionVariables.userWeight  = prompt(questions.USER_WEIGHT);
 			    while(!questionVariables.userWeight){
 					
-					alert("Не сте въвели годината на раждане на баща си");
+					alert("Не се притеснявайте и моля споделете колко тежите");
 					questionVariables.userWeight  = prompt(questions.USER_WEIGHT);
 				}
 			  
