@@ -1,25 +1,4 @@
-/*const applicationManager = {
-    isApplicationRunning    : true,
-    isSystemTurnOn          : false,
-    isSystemTurnOff         : true,
-    activeHandId            : null,
 
-    handAonX                : 1,
-    handAonY                : 1,
-
-    handBonX                : 1,
-    handBonY                : 1,    
-
-    handConX                : 1,
-    handConY                : 1,
-
-    activeHoleCoefficient   : null
-}
-
-const applicationData = {
-    oxigenQuantity  : 168,
-    gasQuantity     : 90
-}*/
 let user_age            = null;
 let answersCounter      = 0;
 let randomNum           = null;
