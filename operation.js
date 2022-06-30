@@ -1,8 +1,9 @@
             
 			questionVariables.userBirthYear = prompt(questions.USER_BIRTH_YEAR);
-			while (!questionVariables.userBirthYear)
+			while (!questionVariables.userBirthYear){
 			questionVariables.userBirthYear = prompt(questions.USER_BIRTH_YEAR);
 			console.log("не сте въвели годината си на раждане!");
+			}
 			console.log(questionVariables.userBirthYear);
 			
 			
