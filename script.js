@@ -2,9 +2,9 @@
 			numbers.num_1  = number_1()
 			
 			
-			if(+questionVariables.userBirthYear==1965){
-				numbers.num_2 =0;
-			} else 	{questionVariables.userSex      = prompt(questions.USER_SEX);
+			if(+questionVariables.userBirthYear == 1965){
+				numbers.num_2 = 0;
+			} else 	{questionVariables.userSex  = prompt(questions.USER_SEX);
 
 			numbers.num_2  = number_2();			
 			}
